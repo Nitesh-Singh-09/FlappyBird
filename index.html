@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird with Video Background</title>
+    <link rel="stylesheet" href="./css/bird.css">
+    <script src="bird.js" defer></script>
+</head>
+<body>
+    <!-- Video will now be visible and placed behind the canvas -->
+    <video id="video" src="../video/now.mp4" autoplay loop ></video>
+    
+    <!-- The canvas for the game -->
+    <canvas id="board"></canvas>
+    
+    <!-- Play, Pause, and Restart buttons -->
+    <div id="controls">
+        <button id="playButton"  >Play</button>
+        <button id="pauseButton" disabled>Pause</button>
+        <button id="restartButton" disabled>Restart</button>
+    </div>
+</body>
+</html>
